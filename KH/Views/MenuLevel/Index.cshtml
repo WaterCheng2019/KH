@@ -1,0 +1,137 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+<script type="text/javascript">
+    //实例化DataGrid
+    function makedatagrid()
+    {
+        $("#dg").datagrid({
+            title: '二级菜单修改',
+            iconCls: 'icon-edit',
+            fit:true,
+
+            url: '/MenuLevel/GetMenuLevelList',
+            method:'POST',
+
+            fitColumns: true,//防止水平滑动
+            striped: true,//斑马线效果
+            nowrap: true,
+            rownumbers: true,
+            singleSelect: true,
+           
+            idField: 'MenuLevelID',
+
+            sortName: 'MenuLevelID',
+            sortOrder: 'desc',
+
+            pageSize: 20,
+            pageList: [20, 40, 60],
+            pagination: true,//底部显示
+
+
+            idField:'MenuLevelID',
+
+            toolbar: '#tools',
+            columns:
+                [
+                    [
+                        
+                        { field: 'MenuLevelName', title: '二级菜单名称', width: 100, align: 'center',sortable:true },
+                        { field: 'MenuName', title: '所属一级菜单名称', width: 100, align: 'center' },
+                        { field: 'MenuLevelURL', title: '二级菜单路径', width: 100, align: 'center' },
+                        { field: 'MenuLevelID', title: '二级菜单编号', width: 100, align: 'center', sortable: true, formatter: DataFormat, }
+                    ]
+                ]
+        });
+    }
+
+    //格式化二级菜单编号
+    function DataFormat(value, rowData, rowIndex)
+    {
+        return "<a href='#' onclick='del(" + value + ")'>删除</a>";
+    }
+
+    //实例化下拉框
+    function makeMenuName()
+    {
+        $("#MenuName").combobox({
+            valueField: 'MenuID',
+            textField: 'MenuName',
+            panelHeight: 'auot',
+            url: '/MenuLevel/GetMenuName',
+            method: 'post',
+            width: 150,
+            onLoadSuccess: function ()
+            {
+                $("#MenuName").combobox("select", -1);
+            }
+        });
+    }
+
+    //打开修改视图
+    function EditView()
+    {
+        var row = $("#dg").datagrid("getSelected");
+        if (row)
+        {
+            window.location.href = "/MenuLevel/EditMenuLevel/" + row.MenuLevelID;
+        }
+        else
+        {
+            $.messager.alert("提示","请选择要修改的行数据");
+        }
+       
+    }
+    //打开增加视图
+    function AddEdit()
+    {
+        window.location.href = "/MenuLevel/EditMenuLevel";
+    }
+    
+    //客户端，删除函数
+    function del(id) {
+        $.messager.confirm("提示", "确定要删除吗？", function (falg) {
+            if (falg) {
+                $.ajax({
+                    url: '/MenuLevel/DelById/' + id,
+                    type: 'post',
+                    success: function (data) {
+                        if (data == "success") {
+                            $("#dg").datagrid("reload");
+                        }
+                    }
+                });
+            }
+        });
+    }
+
+    $(function () {
+        makedatagrid();
+        makeMenuName();
+
+        $("#btnSearch").click(function () {
+            var value = $("#MenuName").combobox("getValue");//获取下拉框的实际值
+            $("#dg").datagrid("load", {MenuId:value});
+        });
+
+        $("#btnEdit").click(function () { EditView(); });
+        $("#btnAdd").click(function () { AddEdit(); });
+
+    });
+
+</script>
+
+<div id="tools">
+    <div style="margin:5px">
+        所属一级菜单：
+        <select name="MenuId"  id="MenuName"></select>
+        <a href="#" class="easyui-linkbutton" iconCls="icon-search" id="btnSearch">查询</a>
+        <a href="#" class="easyui-linkbutton" iconCls="icon-edit" id="btnEdit">修改</a>
+        <a href="#" class="easyui-linkbutton" iconCls="icon-add" id="btnAdd">增加</a>
+    </div>
+</div>
+
+
+<table id="dg"></table>
+

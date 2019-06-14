@@ -1,0 +1,527 @@
+﻿时间2019-04-22 22:36:49
+控制器
+动作方法Index
+异常信息输入字符串的格式不正确。
+
+时间
+时间2019-04-22 22:38:19
+控制器
+动作方法Index
+异常信息输入字符串的格式不正确。
+
+时间2019-04-22 22:38:342019-04-22 22:37:37
+控制器
+动作方法Index
+异常信息输入字符串的格式不正确。
+
+控制器
+动作方法GetTreeList
+异常信息基础提供程序在 Open 上失败。
+
+时间2019-04-22 22:40:30
+控制器
+动作方法GetTreeList
+异常信息执行命令定义时出错。有关详细信息，请参阅内部异常。
+
+时间:2019-04-22 22:42:29
+控制器:Menu
+动作方法:GetTreeList
+异常信息:执行命令定义时出错。有关详细信息，请参阅内部异常。
+
+时间:2019-04-23 20:38:55
+控制器:Test
+动作方法:Index
+异常信息:输入字符串的格式不正确。
+
+时间:2019-04-23 20:48:46
+控制器:Hero
+动作方法:Index
+异常信息:G:\毕业论文\KH【190421】\KH\Views\Hero\Index.cshtml(3): error CS1002: ; expected
+
+时间:2019-04-23 20:48:52
+控制器:Hero
+动作方法:Index
+异常信息:G:\毕业论文\KH【190421】\KH\Views\Hero\Index.cshtml(3): error CS1002: ; expected
+
+时间:2019-04-23 20:48:55
+控制器:Hero
+动作方法:Index
+异常信息:G:\毕业论文\KH【190421】\KH\Views\Hero\Index.cshtml(3): error CS1002: ; expected
+
+时间:2019-04-23 20:48:57
+控制器:Hero
+动作方法:Index
+异常信息:G:\毕业论文\KH【190421】\KH\Views\Hero\Index.cshtml(3): error CS1002: ; expected
+
+时间:2019-04-23 20:49:01
+控制器:Hero
+动作方法:Index
+异常信息:G:\毕业论文\KH【190421】\KH\Views\Hero\Index.cshtml(3): error CS1002: ; expected
+
+时间:2019-04-23 21:19:37
+控制器:Hero
+动作方法:getHreoList
+异常信息:序列化类型为“System.Data.Entity.DynamicProxies.Hero_B1EC6CF0EAEEE06A4739E9E48735E72B83998CD6A2BEC53D93DEE38811CB857C”的对象时检测到循环引用。
+
+时间:2019-04-23 21:20:25
+控制器:Hero
+动作方法:getHreoList
+异常信息:序列化类型为“System.Data.Entity.DynamicProxies.Hero_B1EC6CF0EAEEE06A4739E9E48735E72B83998CD6A2BEC53D93DEE38811CB857C”的对象时检测到循环引用。
+
+时间:2019-04-23 21:22:00
+控制器:Hero
+动作方法:getHreoList
+异常信息:序列化类型为“System.Data.Entity.DynamicProxies.Hero_B1EC6CF0EAEEE06A4739E9E48735E72B83998CD6A2BEC53D93DEE38811CB857C”的对象时检测到循环引用。
+
+时间:2019-04-23 23:07:30
+控制器:Hero
+动作方法:GetHeroTypeList
+异常信息:此请求已被阻止，因为当用在 GET 请求中时，会将敏感信息透漏给第三方网站。若要允许 GET 请求，请将 JsonRequestBehavior 设置为 AllowGet。
+
+时间:2019-04-23 23:07:30
+控制器:Hero
+动作方法:GetHeroTypeList
+异常信息:此请求已被阻止，因为当用在 GET 请求中时，会将敏感信息透漏给第三方网站。若要允许 GET 请求，请将 JsonRequestBehavior 设置为 AllowGet。
+
+时间:2019-04-23 23:07:30
+控制器:Hero
+动作方法:GetHeroTypeList
+异常信息:此请求已被阻止，因为当用在 GET 请求中时，会将敏感信息透漏给第三方网站。若要允许 GET 请求，请将 JsonRequestBehavior 设置为 AllowGet。
+
+时间:2019-04-23 23:07:30
+控制器:Hero
+动作方法:GetHeroTypeList
+异常信息:此请求已被阻止，因为当用在 GET 请求中时，会将敏感信息透漏给第三方网站。若要允许 GET 请求，请将 JsonRequestBehavior 设置为 AllowGet。
+
+时间:2019-04-23 23:07:31
+控制器:Hero
+动作方法:GetHeroTypeList
+异常信息:此请求已被阻止，因为当用在 GET 请求中时，会将敏感信息透漏给第三方网站。若要允许 GET 请求，请将 JsonRequestBehavior 设置为 AllowGet。
+
+时间:2019-04-23 23:52:15
+控制器:Hero
+动作方法:getHreoList
+异常信息:仅对 LINQ to Entities 中已排序的输入支持方法“Skip”。必须在调用“Skip”方法之前调用方法“OrderBy”。
+
+时间:2019-04-23 23:52:22
+控制器:Hero
+动作方法:getHreoList
+异常信息:仅对 LINQ to Entities 中已排序的输入支持方法“Skip”。必须在调用“Skip”方法之前调用方法“OrderBy”。
+
+时间:2019-04-23 23:52:30
+控制器:Hero
+动作方法:getHreoList
+异常信息:仅对 LINQ to Entities 中已排序的输入支持方法“Skip”。必须在调用“Skip”方法之前调用方法“OrderBy”。
+
+时间:2019-04-23 23:52:39
+控制器:Hero
+动作方法:getHreoList
+异常信息:仅对 LINQ to Entities 中已排序的输入支持方法“Skip”。必须在调用“Skip”方法之前调用方法“OrderBy”。
+
+时间:2019-04-23 23:55:35
+控制器:Hero
+动作方法:getHreoList
+异常信息:仅对 LINQ to Entities 中已排序的输入支持方法“Skip”。必须在调用“Skip”方法之前调用方法“OrderBy”。
+
+时间:2019/4/24 15:14:28
+控制器:Menu
+动作方法:GetTreeList
+异常信息:基础提供程序在 Open 上失败。
+
+时间:2019/4/24 15:15:30
+控制器:Hero
+动作方法:getHreoList
+异常信息:仅对 LINQ to Entities 中已排序的输入支持方法“Skip”。必须在调用“Skip”方法之前调用方法“OrderBy”。
+
+时间:2019/4/24 15:42:02
+控制器:Hero
+动作方法:getHreoList
+异常信息:仅对 LINQ to Entities 中已排序的输入支持方法“Skip”。必须在调用“Skip”方法之前调用方法“OrderBy”。
+
+时间:2019/4/24 15:45:03
+控制器:Hero
+动作方法:getHreoList
+异常信息:仅对 LINQ to Entities 中已排序的输入支持方法“Skip”。必须在调用“Skip”方法之前调用方法“OrderBy”。
+
+时间:2019/4/24 15:45:06
+控制器:Hero
+动作方法:getHreoList
+异常信息:仅对 LINQ to Entities 中已排序的输入支持方法“Skip”。必须在调用“Skip”方法之前调用方法“OrderBy”。
+
+时间:2019/4/24 15:46:35
+控制器:Hero
+动作方法:getHreoList
+异常信息:仅对 LINQ to Entities 中已排序的输入支持方法“Skip”。必须在调用“Skip”方法之前调用方法“OrderBy”。
+
+时间:2019/4/24 15:47:38
+控制器:Hero
+动作方法:getHreoList
+异常信息:仅对 LINQ to Entities 中已排序的输入支持方法“Skip”。必须在调用“Skip”方法之前调用方法“OrderBy”。
+
+时间:2019-04-24 20:33:42
+控制器:Hero
+动作方法:getHreoList
+异常信息:执行命令定义时出错。有关详细信息，请参阅内部异常。
+
+时间:2019-04-24 21:48:55
+控制器:Hero
+动作方法:EditHero
+异常信息:无法将类型为“System.Collections.Generic.List`1[KH.Models.HeroType]”的对象强制转换为类型“System.Web.Mvc.SelectList”。
+
+时间:2019-04-24 21:53:23
+控制器:Hero
+动作方法:EditHero
+异常信息:无法将类型为“System.Collections.Generic.List`1[KH.Models.HeroType]”的对象强制转换为类型“System.Web.Mvc.SelectList”。
+
+时间:2019-04-24 21:58:30
+控制器:Hero
+动作方法:EditHero
+异常信息:无法将类型为“System.Collections.Generic.List`1[KH.Models.HeroType]”的对象强制转换为类型“System.Web.Mvc.SelectList”。
+
+时间:2019-04-24 22:15:16
+控制器:Hero
+动作方法:EditHero
+异常信息:G:\毕业论文\KH【190421】\KH\Views\Hero\EditHero.cshtml(94): error CS1501: No overload for method 'ValidationMessageFor' takes 0 arguments
+
+时间:2019-04-24 23:21:16
+控制器:Hero
+动作方法:EditHero
+异常信息:未将对象引用设置到对象的实例。
+
+时间:2019/4/25 8:34:42
+控制器:Menu
+动作方法:GetTreeList
+异常信息:基础提供程序在 Open 上失败。
+
+时间:2019-04-28 23:36:31
+控制器:Menu
+动作方法:GetTreeList
+异常信息:基础提供程序在 Open 上失败。
+
+时间:2019-04-29 0:02:21
+控制器:User
+动作方法:Login
+异常信息:未找到视图“Login.html”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/User/Login.html.aspx
+~/Views/User/Login.html.ascx
+~/Views/Shared/Login.html.aspx
+~/Views/Shared/Login.html.ascx
+~/Views/User/Login.html.cshtml
+~/Views/User/Login.html.vbhtml
+~/Views/Shared/Login.html.cshtml
+~/Views/Shared/Login.html.vbhtml
+
+时间:2019/4/29 16:03:48
+控制器:Menu
+动作方法:GetTreeList
+异常信息:基础提供程序在 Open 上失败。
+
+时间:2019/4/29 16:04:32
+控制器:Menu
+动作方法:GetTreeList
+异常信息:基础提供程序在 Open 上失败。
+
+时间:2019/4/30 9:34:58
+控制器:Hero
+动作方法:EditHero
+异常信息:对一个或多个实体的验证失败。有关详细信息，请参阅“EntityValidationErrors”属性。
+
+时间:2019/4/30 9:35:14
+控制器:Hero
+动作方法:EditHero
+异常信息:对一个或多个实体的验证失败。有关详细信息，请参阅“EntityValidationErrors”属性。
+
+时间:2019/4/30 9:37:48
+控制器:Hero
+动作方法:EditHero
+异常信息:对一个或多个实体的验证失败。有关详细信息，请参阅“EntityValidationErrors”属性。
+
+时间:2019/4/30 9:41:19
+控制器:Hero
+动作方法:EditHero
+异常信息:对一个或多个实体的验证失败。有关详细信息，请参阅“EntityValidationErrors”属性。
+
+时间:2019/4/30 9:43:36
+控制器:Hero
+动作方法:EditHero
+异常信息:对一个或多个实体的验证失败。有关详细信息，请参阅“EntityValidationErrors”属性。
+
+时间:2019/4/30 9:44:15
+控制器:Hero
+动作方法:EditHero
+异常信息:对一个或多个实体的验证失败。有关详细信息，请参阅“EntityValidationErrors”属性。
+
+时间:2019/4/30 10:20:39
+控制器:Hero
+动作方法:EditHero
+异常信息:对一个或多个实体的验证失败。有关详细信息，请参阅“EntityValidationErrors”属性。
+
+时间:2019/4/30 10:22:22
+控制器:Hero
+动作方法:EditHero
+异常信息:对一个或多个实体的验证失败。有关详细信息，请参阅“EntityValidationErrors”属性。
+
+时间:2019/4/30 10:25:25
+控制器:Hero
+动作方法:EditHero
+异常信息:对一个或多个实体的验证失败。有关详细信息，请参阅“EntityValidationErrors”属性。
+
+时间:2019/4/30 10:26:17
+控制器:Hero
+动作方法:EditHero
+异常信息:对一个或多个实体的验证失败。有关详细信息，请参阅“EntityValidationErrors”属性。
+
+时间:2019/4/30 10:29:43
+控制器:Hero
+动作方法:EditHero
+异常信息:对一个或多个实体的验证失败。有关详细信息，请参阅“EntityValidationErrors”属性。
+
+时间:2019/4/30 10:30:06
+控制器:Hero
+动作方法:EditHero
+异常信息:对一个或多个实体的验证失败。有关详细信息，请参阅“EntityValidationErrors”属性。
+
+时间:2019/4/30 10:33:21
+控制器:Hero
+动作方法:EditHero
+异常信息:对一个或多个实体的验证失败。有关详细信息，请参阅“EntityValidationErrors”属性。
+
+时间:2019/4/30 12:31:51
+控制器:Hero
+动作方法:EditHero
+异常信息:对一个或多个实体的验证失败。有关详细信息，请参阅“EntityValidationErrors”属性。
+
+时间:2019/4/30 15:10:51
+控制器:Menu
+动作方法:GetMeunList
+异常信息:此请求已被阻止，因为当用在 GET 请求中时，会将敏感信息透漏给第三方网站。若要允许 GET 请求，请将 JsonRequestBehavior 设置为 AllowGet。
+
+时间:2019/4/30 15:11:06
+控制器:Menu
+动作方法:GetMeunList
+异常信息:此请求已被阻止，因为当用在 GET 请求中时，会将敏感信息透漏给第三方网站。若要允许 GET 请求，请将 JsonRequestBehavior 设置为 AllowGet。
+
+时间:2019/5/3 16:03:40
+控制器:User
+动作方法:Login
+异常信息:未找到视图“Login.html”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/User/Login.html.aspx
+~/Views/User/Login.html.ascx
+~/Views/Shared/Login.html.aspx
+~/Views/Shared/Login.html.ascx
+~/Views/User/Login.html.cshtml
+~/Views/User/Login.html.vbhtml
+~/Views/Shared/Login.html.cshtml
+~/Views/Shared/Login.html.vbhtml
+
+时间:2019/5/3 16:20:16
+控制器:User
+动作方法:Login
+异常信息:未找到视图“Login.html”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/User/Login.html.aspx
+~/Views/User/Login.html.ascx
+~/Views/Shared/Login.html.aspx
+~/Views/Shared/Login.html.ascx
+~/Views/User/Login.html.cshtml
+~/Views/User/Login.html.vbhtml
+~/Views/Shared/Login.html.cshtml
+~/Views/Shared/Login.html.vbhtml
+
+时间:2019/5/3 16:22:21
+控制器:User
+动作方法:Login
+异常信息:未找到视图“Login.html”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/User/Login.html.aspx
+~/Views/User/Login.html.ascx
+~/Views/Shared/Login.html.aspx
+~/Views/Shared/Login.html.ascx
+~/Views/User/Login.html.cshtml
+~/Views/User/Login.html.vbhtml
+~/Views/Shared/Login.html.cshtml
+~/Views/Shared/Login.html.vbhtml
+
+时间:2019/5/3 16:23:58
+控制器:User
+动作方法:Login
+异常信息:未找到视图“Login.html”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/User/Login.html.aspx
+~/Views/User/Login.html.ascx
+~/Views/Shared/Login.html.aspx
+~/Views/Shared/Login.html.ascx
+~/Views/User/Login.html.cshtml
+~/Views/User/Login.html.vbhtml
+~/Views/Shared/Login.html.cshtml
+~/Views/Shared/Login.html.vbhtml
+
+时间:2019/5/4 22:04:27
+控制器:MenuLevel
+动作方法:GetMenuLevelList
+异常信息:仅对 LINQ to Entities 中已排序的输入支持方法“Skip”。必须在调用“Skip”方法之前调用方法“OrderBy”。
+
+时间:2019/5/4 22:04:46
+控制器:MenuLevel
+动作方法:GetMenuLevelList
+异常信息:仅对 LINQ to Entities 中已排序的输入支持方法“Skip”。必须在调用“Skip”方法之前调用方法“OrderBy”。
+
+时间:2019/5/4 22:04:48
+控制器:MenuLevel
+动作方法:GetMenuLevelList
+异常信息:仅对 LINQ to Entities 中已排序的输入支持方法“Skip”。必须在调用“Skip”方法之前调用方法“OrderBy”。
+
+时间:2019/5/4 22:04:49
+控制器:MenuLevel
+动作方法:GetMenuLevelList
+异常信息:仅对 LINQ to Entities 中已排序的输入支持方法“Skip”。必须在调用“Skip”方法之前调用方法“OrderBy”。
+
+时间:2019/5/4 22:05:05
+控制器:MenuLevel
+动作方法:GetMenuLevelList
+异常信息:仅对 LINQ to Entities 中已排序的输入支持方法“Skip”。必须在调用“Skip”方法之前调用方法“OrderBy”。
+
+时间:2019/5/4 22:05:15
+控制器:MenuLevel
+动作方法:GetMenuLevelList
+异常信息:仅对 LINQ to Entities 中已排序的输入支持方法“Skip”。必须在调用“Skip”方法之前调用方法“OrderBy”。
+
+时间:2019/5/4 22:08:55
+控制器:MenuLevel
+动作方法:GetMenuLevelList
+异常信息:仅对 LINQ to Entities 中已排序的输入支持方法“Skip”。必须在调用“Skip”方法之前调用方法“OrderBy”。
+
+时间:2019/5/4 22:11:42
+控制器:MenuLevel
+动作方法:GetMenuLevelList
+异常信息:仅对 LINQ to Entities 中已排序的输入支持方法“Skip”。必须在调用“Skip”方法之前调用方法“OrderBy”。
+
+时间:2019/5/4 22:30:39
+控制器:MenuLevel
+动作方法:GetMenuLevelList
+异常信息:仅对 LINQ to Entities 中已排序的输入支持方法“Skip”。必须在调用“Skip”方法之前调用方法“OrderBy”。
+
+时间:2019/5/4 22:32:01
+控制器:MenuLevel
+动作方法:GetMenuLevelList
+异常信息:仅对 LINQ to Entities 中已排序的输入支持方法“Skip”。必须在调用“Skip”方法之前调用方法“OrderBy”。
+
+时间:2019/5/4 22:32:04
+控制器:MenuLevel
+动作方法:GetMenuLevelList
+异常信息:仅对 LINQ to Entities 中已排序的输入支持方法“Skip”。必须在调用“Skip”方法之前调用方法“OrderBy”。
+
+时间:2019/5/4 22:32:04
+控制器:MenuLevel
+动作方法:GetMenuLevelList
+异常信息:仅对 LINQ to Entities 中已排序的输入支持方法“Skip”。必须在调用“Skip”方法之前调用方法“OrderBy”。
+
+时间:2019/5/4 22:33:25
+控制器:MenuLevel
+动作方法:GetMenuLevelList
+异常信息:仅对 LINQ to Entities 中已排序的输入支持方法“Skip”。必须在调用“Skip”方法之前调用方法“OrderBy”。
+
+时间:2019/5/4 23:05:26
+控制器:MenuLevel
+动作方法:EditMenuLevel
+异常信息:DataBinding:“KH.Models.MenuLevel”不包含名为“MenuName”的属性。
+
+时间:2019/5/5 0:14:59
+控制器:MenuLevel
+动作方法:EditMenuLevel
+异常信息:对一个或多个实体的验证失败。有关详细信息，请参阅“EntityValidationErrors”属性。
+
+时间:2019/5/5 0:39:24
+控制器:MenuLevel
+动作方法:EditMenuLevel
+异常信息:对一个或多个实体的验证失败。有关详细信息，请参阅“EntityValidationErrors”属性。
+
+时间:2019/5/5 0:45:05
+控制器:MenuLevel
+动作方法:EditMenuLevel
+异常信息:在 "@" 字符后面遇到了空格或换行符。只有有效的标识符、关键字、注释、"(" 和 "{" 在代码块开头才有效，并且它们必须紧跟在 "@" 后面，中间没有空格。
+
+
+时间:2019/5/5 1:05:07
+控制器:Hero
+动作方法:DelById
+异常信息:值不能为 null。
+参数名: entity
+
+时间:2019/5/6 17:40:30
+控制器:HeroType
+动作方法:GetTypeNameList
+异常信息:序列化类型为“System.Data.Entity.DynamicProxies.HeroType_1650919CBEBF5D5C888AA4B993B2135814D06A1F3C597DAF458052C766E51AFA”的对象时检测到循环引用。
+
+时间:2019/5/6 17:42:21
+控制器:HeroType
+动作方法:GetTypeNameList
+异常信息:序列化类型为“System.Data.Entity.DynamicProxies.HeroType_1650919CBEBF5D5C888AA4B993B2135814D06A1F3C597DAF458052C766E51AFA”的对象时检测到循环引用。
+
+时间:2019/5/6 17:43:40
+控制器:HeroType
+动作方法:GetTypeNameList
+异常信息:序列化类型为“System.Data.Entity.DynamicProxies.HeroType_1650919CBEBF5D5C888AA4B993B2135814D06A1F3C597DAF458052C766E51AFA”的对象时检测到循环引用。
+
+时间:2019/5/6 17:43:53
+控制器:HeroType
+动作方法:GetTypeNameList
+异常信息:此请求已被阻止，因为当用在 GET 请求中时，会将敏感信息透漏给第三方网站。若要允许 GET 请求，请将 JsonRequestBehavior 设置为 AllowGet。
+
+时间:2019/5/6 17:45:01
+控制器:HeroType
+动作方法:GetTypeNameList
+异常信息:序列化类型为“System.Data.Entity.DynamicProxies.HeroType_1650919CBEBF5D5C888AA4B993B2135814D06A1F3C597DAF458052C766E51AFA”的对象时检测到循环引用。
+
+时间:2019/5/6 17:45:13
+控制器:HeroType
+动作方法:GetTypeNameList
+异常信息:序列化类型为“System.Data.Entity.DynamicProxies.HeroType_1650919CBEBF5D5C888AA4B993B2135814D06A1F3C597DAF458052C766E51AFA”的对象时检测到循环引用。
+
+时间:2019/5/12 22:20:35
+控制器:Log
+动作方法:Index
+异常信息:未能找到文件“C:\Program Files (x86)\IIS Express\~log.txt”。
+
+时间:2019/5/12 22:20:54
+控制器:Log
+动作方法:Index
+异常信息:未能找到文件“C:\Program Files (x86)\IIS Express\~log.txt”。
+
+时间:2019/5/12 22:21:54
+控制器:Log
+动作方法:Index
+异常信息:未能找到文件“C:\Program Files (x86)\IIS Express\log.txt”。
+
+时间:2019/5/12 22:31:23
+控制器:Log
+动作方法:Index
+异常信息:未能找到文件“C:\Program Files (x86)\IIS Expresslog.txt”。
+
+时间:2019/5/12 22:32:56
+控制器:Log
+动作方法:Index
+异常信息:未能找到文件“C:\Program Files (x86)\IIS Expresslog.txt”。
+
+时间:2019/5/12 22:33:39
+控制器:Log
+动作方法:Index
+异常信息:未能找到文件“C:\Program Files (x86)\IIS Express\log.txt”。
+
+时间:2019/5/12 22:33:39
+控制器:Log
+动作方法:Index
+异常信息:未能找到文件“C:\Program Files (x86)\IIS Express\log.txt”。
+
+时间:2019/5/12 22:40:43
+控制器:Log
+动作方法:Index
+异常信息:未能找到路径“C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH\Log\~log.txt”的一部分。
+
+时间:2019/5/12 22:41:30
+控制器:Log
+动作方法:Index
+异常信息:未能找到路径“C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH\Log\log.txt”的一部分。
+
+时间:2019/5/12 22:51:33
+控制器:User
+动作方法:Login
+异常信息:基础提供程序在 Open 上失败。
+

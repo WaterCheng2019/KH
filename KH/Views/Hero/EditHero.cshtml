@@ -1,0 +1,139 @@
+﻿
+@{
+    ViewBag.Title = "EditHero";
+}
+@model KH.Models.Hero
+<style type="text/css">
+    table.dt {
+        border:1px solid black;
+        border-collapse:collapse;
+        width:600px;
+         }
+        table.dt td {
+            border:1px solid black;
+             }
+    input.txt {
+        width:300px;
+    }
+    .ddl {
+        width:120px;
+    }
+</style>
+<script type="text/javascript">
+    //渲染日期
+    function Makedatebox()
+    {
+        $("#AddData").datebox({
+            required: true,
+            missingMessage: "请选择上映日期",
+            editable:false
+        });
+    }
+    //渲染下拉框
+    function Makeconbobox()
+    {
+        $("#HeroTypeID").combobox({
+            required: true,
+            missingMessage: '请选择英雄类型',
+            panelHeight:'auto'
+        });
+    }
+
+    //渲染文本框
+    function Maketextbox()
+    {
+        $("#HeroName").textbox({
+            required: true,
+            missingMessage:'请输入英雄名称'
+        });
+    }
+
+    //浏览选择的图片
+    function showPic()
+    {
+        var selectFile = document.getElementById("myfile").files[0];
+
+        //检查是否为图片文件
+        var reg = /^image\/\w+$/;
+        var flag = reg.test(selectFile.type);
+
+        if (flag) {
+            var file = new FileReader();
+            file.readAsDataURL(selectFile);//将文件以Data URL的形式读入页面
+            file.onload = function (e)
+            {
+                $("#Picture").attr("src",this.result);
+            }
+        }
+        else {
+            $.messager.alert('警告','请选择图片');
+        }
+    }
+
+    $(function () {
+        Makedatebox(); 
+        $("#AddData").datebox("setValue", $("#HiddenAddData").val());//给日历框赋值
+        Makeconbobox();
+        Maketextbox();
+
+        $("#myfile").change(function () { showPic(); });//绑定文件域onchange事件方法
+    });
+</script>
+
+<h4 >@ViewData["Info"]_</h4>@Html.ActionLink("返回英雄列表", "Index", "Hero")
+
+@using (Html.BeginForm("EditHero", "Hero",FormMethod.Post,new { enctype="multipart/form-data" }))
+{
+    <table class="dt">
+        <tr>
+            <td rowspan="4" style="width:130px;text-align:center">
+                <img src='@Url.Content(Model==null?"~/Content/Picture/defale.jpg":"~/Content/Picture/"+Model.Picture+"")' width="100" height="100" id=Picture />
+                <br />
+                <input type="file" name="myfiel" id="myfile"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                英雄： @Html.TextBoxFor(i=>i.HeroName)
+                       @Html.ValidationMessageFor(i=>i.HeroName)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                位置：
+                     @Html.DropDownListFor(i=>i.HeroTypeID,(SelectList)ViewData["heroType"], new { @class="ddl" })
+            </td>
+        </tr>
+        <tr>
+            <td>
+                上架时间:
+                      @Html.TextBoxFor(i=>i.AddData)
+                      @Html.ValidationMessageFor(i=>i.AddData)
+
+                       @*时间的隐藏域,保存当前影片的上映时间*@
+                       <input type="hidden" id="HiddenAddData" value='@(Model==null?DateTime.Now.ToString("yyyy-MM-dd"):Model.AddData.ToString("yyyy-MM-dd"))' />
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                故事：<br />
+                     @Html.TextAreaFor(i=>i.HeroStory,new {rows=5,cols=70 })
+                     @Html.ValidationMessageFor(i => i.HeroStory)
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" style="text-align:center">
+                <input type="submit" id="btnSave"  value="保存"/>
+
+                @*隐藏域，保存要修改的英雄编号*@
+                <input type="hidden" name="HeroID" value='@(Model==null?0:Model.HeroID)' />
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">@Html.ValidationSummary()</td>
+        </tr>
+
+    </table>
+}

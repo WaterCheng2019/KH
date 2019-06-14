@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HKModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Hero">
+    <Key>
+      <PropertyRef Name="HeroID" />
+    </Key>
+    <Property Name="HeroID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="HeroName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="HeroTypeID" Type="Int32" Nullable="false" />
+    <Property Name="AddData" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Picture" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="HeroStory" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="HeroType" Relationship="Self.FK_Hero_HeroType" FromRole="Hero" ToRole="HeroType" />
+  </EntityType>
+  <EntityType Name="HeroType">
+    <Key>
+      <PropertyRef Name="TypeID" />
+    </Key>
+    <Property Name="TypeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TypeName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Heroes" Relationship="Self.FK_Hero_HeroType" FromRole="HeroType" ToRole="Hero" />
+  </EntityType>
+  <EntityType Name="Menu">
+    <Key>
+      <PropertyRef Name="MenuID" />
+    </Key>
+    <Property Name="MenuID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MenuName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="UserPassword" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Hero_HeroType">
+    <End Role="HeroType" Type="Self.HeroType" Multiplicity="1" />
+    <End Role="Hero" Type="Self.Hero" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HeroType">
+        <PropertyRef Name="TypeID" />
+      </Principal>
+      <Dependent Role="Hero">
+        <PropertyRef Name="HeroTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="HKEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Heroes" EntityType="Self.Hero" />
+    <EntitySet Name="HeroTypes" EntityType="Self.HeroType" />
+    <EntitySet Name="Menus" EntityType="Self.Menu" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <AssociationSet Name="FK_Hero_HeroType" Association="Self.FK_Hero_HeroType">
+      <End Role="HeroType" EntitySet="HeroTypes" />
+      <End Role="Hero" EntitySet="Heroes" />
+    </AssociationSet>
+    <EntitySet Name="MenuLevels" EntityType="HKModel.MenuLevel" />
+    <EntitySet Name="v_hero" EntityType="HKModel.v_hero" />
+    <EntitySet Name="v_menu" EntityType="HKModel.v_menu" />
+  </EntityContainer>
+  <EntityType Name="MenuLevel">
+    <Key>
+      <PropertyRef Name="MenuLevelID" />
+    </Key>
+    <Property Name="MenuLevelID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MenuLevelName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MenuID" Type="Int32" Nullable="false" />
+    <Property Name="MenuLevelURL" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="v_hero">
+    <Key>
+      <PropertyRef Name="HeroID" />
+      <PropertyRef Name="HeroName" />
+      <PropertyRef Name="HeroTypeID" />
+      <PropertyRef Name="AddData" />
+      <PropertyRef Name="Picture" />
+      <PropertyRef Name="HeroStory" />
+      <PropertyRef Name="TypeID" />
+      <PropertyRef Name="TypeName" />
+    </Key>
+    <Property Name="HeroID" Type="Int32" Nullable="false" />
+    <Property Name="HeroName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="HeroTypeID" Type="Int32" Nullable="false" />
+    <Property Name="AddData" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Picture" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="HeroStory" Type="String" Nullable="false" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="TypeID" Type="Int32" Nullable="false" />
+    <Property Name="TypeName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="v_menu">
+    <Key>
+      <PropertyRef Name="MenuID" />
+      <PropertyRef Name="MenuName" />
+      <PropertyRef Name="MenuLevelID" />
+      <PropertyRef Name="MenuLevelName" />
+      <PropertyRef Name="MenuLevelURL" />
+    </Key>
+    <Property Name="MenuID" Type="Int32" Nullable="false" />
+    <Property Name="MenuName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MenuLevelID" Type="Int32" Nullable="false" />
+    <Property Name="MenuLevelName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MenuLevelURL" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+  </EntityType>
+</Schema>

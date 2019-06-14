@@ -1,0 +1,123 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<script type="text/javascript">
+
+    function Makedatagrid() {
+
+        $("#dg").datagrid({
+            title: '一级菜单',
+            iconCls: 'icon-edit',
+
+            fitColumns: true,
+            striped: true,
+            pagination: true,
+            rownumbers: true,
+            singleSelect: true,
+            fit: true,
+
+            nowrap: true,
+
+            method: 'POST',
+            url: '/User/GetUserList/',
+
+            idField: 'UserID',
+            sortName: 'UserID',
+            sortOrder: 'asc',
+
+            pageNumber: 1,
+            pageSize: 5,
+            pageList: [5, 10, 15],
+
+            toolbar: "#tools",
+            columns:
+                [
+                    [
+                        { field: 'UserName', title: '账号', align: 'center', width: 100, sortable: true },
+                        { field: 'UserPassword', title: '密码', align: 'center', width: 100, sortable: true },
+                        { field: 'UserID', title: '删除', align: 'center', width: 100, sortable: true, formatter: FromDel }
+                    ]
+                ]
+        });
+    }
+
+    //格式化删除
+    function FromDel(value,rowData,rowIndex)
+    {
+        return '<a href="#" onclick="del('+value+')">删除</a>'
+    }
+
+    //删除
+    function del(id)
+    {
+        $.messager.confirm("提示", "确定要删除吗？", function (falg) {
+            if (falg) {
+                $.ajax({
+                    url: '/Menu/DelMenuById/' + id,
+                    type: 'post',
+                    data: 'json',
+                    success: function (data) {
+                        if (data == "success") {
+                            $("#dg").datagrid("reload");
+                        }
+                    }
+                });
+            }
+        });
+
+    }
+
+        //打开编辑页面视图
+        function EditView() {
+            var row = $("#dg").datagrid("getSelected");
+            if (row) {
+                window.location.href = "/Menu/EditMenu/" + row.MenuID;
+            }
+            else {
+                $.messager.alert("提示", "请选择要修改的行", 'info')
+            }
+        }
+
+        //打开增加页面视图
+        function AddView() {
+            window.location.href = "/Menu/EditMenu/"
+        }
+
+
+
+
+        $(function () {
+            Makedatagrid();
+
+            ////单击查询按钮
+            //$("#btnSearch").click(function () {
+            //    var SearchValue = $("#txtMenuName").textbox("getValue");
+            //    $("#dg").datagrid("load", {
+            //        MenuName: SearchValue
+            //    });
+            //});
+
+            //$("#btnEdit").click(function () { EditView(); });
+            //$("#btnAdd").click(function () { AddView(); });
+        });
+
+
+</script>
+
+<div id="tools">
+    <div style="margin:5px">
+        <input class="easyui-textbox" data-options="prompt:'账号'" id="txtMenuName" />
+        <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-search',disabled:true" id="btnSearch">查询</a>
+
+        <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-edit',disabled:true" id="btnEdit">修改</a>
+
+        <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-add',disabled:true" id="btnAdd">增加</a>
+
+
+    </div>
+</div>
+
+
+<table id="dg"></table>

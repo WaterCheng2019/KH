@@ -1,0 +1,184 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+<script type="text/javascript">
+    //实例化,DataGrid组件
+    function makeDataGrid() {
+        $("#dg").datagrid({
+            title: '英雄',
+            iconCls: 'icon-edit',
+
+            fit: true,
+            striped: true,
+            singleSelect: true,
+            rownumbers: true,
+            fitColumns: true,//自动伸缩大小防止水平滑动
+
+            method: 'post',
+            url: '/Hero/getHreoList',
+
+            idField: 'HeroID',
+
+            pageSize: 5,
+            pageList: [5, 10, 15],
+            pagination: true,
+
+            view: detailview,
+            detailFormatter: function (index, row)//构造面板详细内容
+            {
+                var conten = "";
+                conten += "<div id='div_" + index + "' style='padding:15px'></div>";
+                return conten;
+            },
+            onExpandRow: function (index, row)//展开时,触发
+            {
+                $("#div_" + index).panel({    //渲染成panel面板
+                    title: '详细内容',
+                    iconCls: 'icon-reload',
+                    doSize:true,
+                    fitColumns: true,
+                    loadingMessage: '正在加载数据中，请稍后。。。',
+                    href: '/Hero/GetHeroById/' + row.HeroID
+                });
+                $("#dg").datagrid('fixDetailRowHeight', index);
+            },
+
+            sortName: 'HeroID',
+            sortOrder: 'desc',
+
+            loadMsg: '正在努力加载中,请稍等.......',
+            toolbar: '#tb',
+            columns:
+                [
+                    [
+                       //{ field: 'HeroID', checkbox:true , align: 'center',width:50}, 
+                        { field: 'HeroName', title: '英雄', align: 'center', width: 100 },
+                        { field: 'Picture', title: '头像', align: 'center', width: 100, formatter: PictureFormat },
+                        { field: 'TypeName', title: '类型', align: 'center', width: 100 },
+                        { field: 'AddData', title: '上架时间', align: 'center', width: 150, formatter: DataFormat, sortable:true },
+                        //{ field: 'HeroStory', title: '故事', align: 'center', width:600}
+                        { field: 'HeroID', title: '删除', align: 'center',  width:100, formatter: DeleteFormat }
+                    ]
+                ]
+        });
+    }
+
+    //格式化，日期
+    function DataFormat(value, rowData, rwoIndex)
+    {
+        if (value == undefined) {
+            return "";
+        }
+        var v1 = value.replace("/Date(", "");
+        var v2 = v1.replace(")/","");
+        var v3 = new Date(parseInt(v2));
+        
+        return '<span style="color:red">' + v3.getFullYear() + "-" + (v3.getMonth() + 1) + "-" + v3.getDate() + '</span>';
+    }
+
+    //格式化，头像
+    function PictureFormat(value,rowData,rwoIndex)
+    {
+        if (value==undefined) {
+            return "";
+        }
+        return '<img src="/Content/Picture/'+value+'" width="100" height="100" />';
+    }
+
+    //格式化删除列
+    function DeleteFormat(value, rowData, rowIndex)
+    {
+        return "<a href='#' onclick='del("+value+")'>删除</a>";
+    }
+
+    //实例化，下拉列表
+    function makeCombobox()
+    {
+        $("#HeroType").combobox({
+            url: "/Hero/GetHeroTypeList/",
+            method:'post',
+            valueField:'TypeID',
+            textField: 'TypeName',
+            panelHeight: 'auto',
+            onLoadSuccess: function ()
+            {
+                $(this).combobox("setValue",-1)
+            }
+        });
+    }
+
+    //打开编辑页面视图
+    function EditView()
+    {
+        var row = $("#dg").datagrid("getSelected");//获取当前选中行,bool
+        if (row)
+        {
+            window.location.href="/Hero/EditHero/"+row.HeroID
+        }
+        else
+        {
+            $.messager.alert("提示","请选择编辑的数据行！");
+        }
+    }
+
+    //打开增加页面视图
+    function AddView()
+    {
+        window.location.href = "/Hero/EditHero"
+    }
+
+    //客户端，删除函数
+    function del(id)
+    {
+        $.messager.confirm("提示", "确定要删除吗？", function (falg) {
+            if (falg) {
+                $.ajax({
+                    url: '/Hero/DelById/' + id,
+                    type: 'post',
+                    success: function (data)
+                    {
+                        if (data == "success") {
+                            $("#dg").datagrid("reload");
+                        }
+                    }
+                });
+            }
+        });
+    }
+    
+
+
+    $(function () {
+        makeDataGrid();
+        makeCombobox();
+
+        //搜索单击事件
+        $("#btnSearch").click(function () {
+            var info = $("#HeroType").combobox("getValue");
+            $("#dg").datagrid("load",
+                {
+                    TypeID:info //传递数据
+                });
+        });
+
+        $("#btnEdit").click(function () { EditView(); });//绑定修改事件
+
+        $("#btnAdd").click(function () { AddView(); });
+    });
+
+</script>
+
+<div id="tb">
+    <div style="margin:5px">
+        类别:
+        <select id="HeroType" style="width:100px" name="HeroType"></select>
+        <a href="#" class="easyui-linkbutton" iconCls="icon-search" id="btnSearch">查询</a>
+
+        <a href="#" class="easyui-linkbutton" iconCls="icon-edit" id="btnEdit">修改</a>
+
+        <a href="#" class="easyui-linkbutton" iconCls="icon-add" id="btnAdd">增加</a>
+    </div>
+</div>
+
+<table id="dg"></table>

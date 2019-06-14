@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HKModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Hero">
+    <Key>
+      <PropertyRef Name="HeroID" />
+    </Key>
+    <Property Name="HeroID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="HeroName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="HeroTypeID" Type="int" Nullable="false" />
+    <Property Name="AddData" Type="datetime" Nullable="false" />
+    <Property Name="Picture" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="HeroStory" Type="nvarchar" MaxLength="4000" Nullable="false" />
+  </EntityType>
+  <EntityType Name="HeroType">
+    <Key>
+      <PropertyRef Name="TypeID" />
+    </Key>
+    <Property Name="TypeID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TypeName" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Menu">
+    <Key>
+      <PropertyRef Name="MenuID" />
+    </Key>
+    <Property Name="MenuID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MenuName" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MenuLevel">
+    <Key>
+      <PropertyRef Name="MenuLevelID" />
+    </Key>
+    <Property Name="MenuLevelID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MenuLevelName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="MenuID" Type="int" Nullable="false" />
+    <Property Name="MenuLevelURL" Type="nvarchar" MaxLength="500" Nullable="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="UserPassword" Type="nvarchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <!--生成过程中发现错误:
+警告 6002: 表/视图“HK.dbo.v_hero”未定义主键。已推断出该键，并将定义创建为只读的表/视图。-->
+  <EntityType Name="v_hero">
+    <Key>
+      <PropertyRef Name="HeroID" />
+      <PropertyRef Name="HeroName" />
+      <PropertyRef Name="HeroTypeID" />
+      <PropertyRef Name="AddData" />
+      <PropertyRef Name="Picture" />
+      <PropertyRef Name="HeroStory" />
+      <PropertyRef Name="TypeID" />
+      <PropertyRef Name="TypeName" />
+    </Key>
+    <Property Name="HeroID" Type="int" Nullable="false" />
+    <Property Name="HeroName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="HeroTypeID" Type="int" Nullable="false" />
+    <Property Name="AddData" Type="datetime" Nullable="false" />
+    <Property Name="Picture" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="HeroStory" Type="nvarchar" MaxLength="4000" Nullable="false" />
+    <Property Name="TypeID" Type="int" Nullable="false" />
+    <Property Name="TypeName" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <!--生成过程中发现错误:
+警告 6002: 表/视图“HK.dbo.v_menu”未定义主键。已推断出该键，并将定义创建为只读的表/视图。-->
+  <EntityType Name="v_menu">
+    <Key>
+      <PropertyRef Name="MenuID" />
+      <PropertyRef Name="MenuName" />
+      <PropertyRef Name="MenuLevelID" />
+      <PropertyRef Name="MenuLevelName" />
+      <PropertyRef Name="MenuLevelURL" />
+    </Key>
+    <Property Name="MenuID" Type="int" Nullable="false" />
+    <Property Name="MenuName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="MenuLevelID" Type="int" Nullable="false" />
+    <Property Name="MenuLevelName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="MenuLevelURL" Type="nvarchar" MaxLength="500" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Hero_HeroType">
+    <End Role="HeroType" Type="Self.HeroType" Multiplicity="1" />
+    <End Role="Hero" Type="Self.Hero" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HeroType">
+        <PropertyRef Name="TypeID" />
+      </Principal>
+      <Dependent Role="Hero">
+        <PropertyRef Name="HeroTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="HKModelStoreContainer">
+    <EntitySet Name="Hero" EntityType="Self.Hero" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HeroType" EntityType="Self.HeroType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Menu" EntityType="Self.Menu" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MenuLevel" EntityType="Self.MenuLevel" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="v_hero" EntityType="Self.v_hero" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [v_hero].[HeroID] AS [HeroID], 
+    [v_hero].[HeroName] AS [HeroName], 
+    [v_hero].[HeroTypeID] AS [HeroTypeID], 
+    [v_hero].[AddData] AS [AddData], 
+    [v_hero].[Picture] AS [Picture], 
+    [v_hero].[HeroStory] AS [HeroStory], 
+    [v_hero].[TypeID] AS [TypeID], 
+    [v_hero].[TypeName] AS [TypeName]
+    FROM [dbo].[v_hero] AS [v_hero]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="v_menu" EntityType="Self.v_menu" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [v_menu].[MenuID] AS [MenuID], 
+    [v_menu].[MenuName] AS [MenuName], 
+    [v_menu].[MenuLevelID] AS [MenuLevelID], 
+    [v_menu].[MenuLevelName] AS [MenuLevelName], 
+    [v_menu].[MenuLevelURL] AS [MenuLevelURL]
+    FROM [dbo].[v_menu] AS [v_menu]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_Hero_HeroType" Association="Self.FK_Hero_HeroType">
+      <End Role="HeroType" EntitySet="HeroType" />
+      <End Role="Hero" EntitySet="Hero" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

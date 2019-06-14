@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="HKModelStoreContainer" CdmEntityContainer="HKEntities">
+    <EntitySetMapping Name="Heroes">
+      <EntityTypeMapping TypeName="HKModel.Hero">
+        <MappingFragment StoreEntitySet="Hero">
+          <ScalarProperty Name="HeroID" ColumnName="HeroID" />
+          <ScalarProperty Name="HeroName" ColumnName="HeroName" />
+          <ScalarProperty Name="HeroTypeID" ColumnName="HeroTypeID" />
+          <ScalarProperty Name="AddData" ColumnName="AddData" />
+          <ScalarProperty Name="Picture" ColumnName="Picture" />
+          <ScalarProperty Name="HeroStory" ColumnName="HeroStory" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HeroTypes">
+      <EntityTypeMapping TypeName="HKModel.HeroType">
+        <MappingFragment StoreEntitySet="HeroType">
+          <ScalarProperty Name="TypeID" ColumnName="TypeID" />
+          <ScalarProperty Name="TypeName" ColumnName="TypeName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Menus">
+      <EntityTypeMapping TypeName="HKModel.Menu">
+        <MappingFragment StoreEntitySet="Menu">
+          <ScalarProperty Name="MenuID" ColumnName="MenuID" />
+          <ScalarProperty Name="MenuName" ColumnName="MenuName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="HKModel.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="UserPassword" ColumnName="UserPassword" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MenuLevels">
+      <EntityTypeMapping TypeName="HKModel.MenuLevel">
+        <MappingFragment StoreEntitySet="MenuLevel">
+          <ScalarProperty Name="MenuLevelURL" ColumnName="MenuLevelURL" />
+          <ScalarProperty Name="MenuID" ColumnName="MenuID" />
+          <ScalarProperty Name="MenuLevelName" ColumnName="MenuLevelName" />
+          <ScalarProperty Name="MenuLevelID" ColumnName="MenuLevelID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_hero">
+      <EntityTypeMapping TypeName="HKModel.v_hero">
+        <MappingFragment StoreEntitySet="v_hero">
+          <ScalarProperty Name="TypeName" ColumnName="TypeName" />
+          <ScalarProperty Name="TypeID" ColumnName="TypeID" />
+          <ScalarProperty Name="HeroStory" ColumnName="HeroStory" />
+          <ScalarProperty Name="Picture" ColumnName="Picture" />
+          <ScalarProperty Name="AddData" ColumnName="AddData" />
+          <ScalarProperty Name="HeroTypeID" ColumnName="HeroTypeID" />
+          <ScalarProperty Name="HeroName" ColumnName="HeroName" />
+          <ScalarProperty Name="HeroID" ColumnName="HeroID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_menu">
+      <EntityTypeMapping TypeName="HKModel.v_menu">
+        <MappingFragment StoreEntitySet="v_menu">
+          <ScalarProperty Name="MenuLevelURL" ColumnName="MenuLevelURL" />
+          <ScalarProperty Name="MenuLevelName" ColumnName="MenuLevelName" />
+          <ScalarProperty Name="MenuLevelID" ColumnName="MenuLevelID" />
+          <ScalarProperty Name="MenuName" ColumnName="MenuName" />
+          <ScalarProperty Name="MenuID" ColumnName="MenuID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

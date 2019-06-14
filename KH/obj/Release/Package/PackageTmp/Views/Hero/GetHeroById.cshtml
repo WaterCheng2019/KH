@@ -1,0 +1,41 @@
+﻿
+@model KH.Models.v_hero
+
+<style>
+    table.dt {
+        border: 0px solid black;
+        border-collapse: collapse;
+        width: 500px;
+        /*position:absolute;*/
+    }
+
+        table.dt td {
+            border: 0px solid black;
+            padding: 10px;
+        }
+</style>
+
+<table class="dt">
+    <tr>
+        <td rowspan="2">
+            <img src='@Url.Content("~/Content/Picture/"+@Model.Picture+"")' />
+        </td>
+        <td>
+            英雄：@Model.HeroName
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            类型：@Model.TypeName
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="2" style="line-height:25px">
+            故事：@Model.HeroStory
+        </td>
+    </tr>
+
+
+</table>

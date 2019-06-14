@@ -1,0 +1,61 @@
+﻿
+@{
+    ViewBag.Title = "EditMenu";
+}
+@model KH.Models.Menu
+<style>
+    table {
+        border:0px solid black;
+        border-collapse:collapse;
+    }
+    td {
+        border:0px solid black;
+    }
+</style>
+<script type="text/javascript">
+    $(function ()
+    {
+        $("#main").panel({
+            width: 500,
+            height: 200,
+            title: '一级菜单信息',
+            iconCls: 'icon-edit',
+            
+        });
+        $("#MenuName").textbox({
+            //prompt: '一级菜单名称',
+            width:300
+        });
+    });
+
+</script>
+
+
+<h2>@Html.ActionLink("返回上级","Index","Menu") @ViewData["info"]</h2>
+
+<div id="main" style="padding:30px;">
+    @using (Html.BeginForm("EditMenu", "Menu", FormMethod.Post))
+    {
+        <table>
+            <tr>
+                <td>
+                    一级菜单名称:
+                    @Html.TextBoxFor(i => i.MenuName)
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;padding:10px;">
+                    <input type="submit" id="btnSave" value="保存" />
+
+                    <input type="hidden" name="MenuID" value='@(Model==null?0:Model.MenuID)' />@*用隐藏域，保存MenuID值*@
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center">
+                    @Html.ValidationSummary()
+                </td>
+            </tr>
+        </table>
+    }
+</div>
+

@@ -1,0 +1,85 @@
+﻿
+@{
+    ViewBag.Title = "EditMenuLevel";
+}
+@model KH.Models.MenuLevel
+
+<h2>EditMenuLevel</h2>
+<style>
+    table {
+        border: 0px solid black;
+        border-collapse: collapse;
+    }
+    tr
+    {
+        margin-bottom:20px
+    }
+    td {
+        border: 0px solid black;
+    }
+</style>
+<script type="text/javascript">
+    $(function ()
+    {
+        $("#main").panel({
+            width: 500,
+            panelHeight:'auto' ,
+            title: '二级菜单信息',
+            iconCls: 'icon-edit',
+
+        });
+        $("#MenuID").combobox({
+            panelHeight: 'auto',
+            width:300
+        });
+        $("#MenuLevelName").textbox({
+            width:300
+        });
+        $("#MenuLevelURL").textbox({
+            width: 300
+        });
+    });
+
+</script>
+
+
+<h2>@Html.ActionLink("返回上级", "Index", "MenuLevel") @ViewData["info"]</h2>
+
+<div id="main" style="padding:30px;">
+    @using (Html.BeginForm("EditMenuLevel", "MenuLevel", FormMethod.Post))
+    {
+        <table>
+            <tr>
+                <td>
+                    所属一级菜单:
+                    @Html.DropDownListFor(i=>i.MenuID, ((SelectList)ViewData["menulevel"]),new { @class="dll" })
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    二级菜单名称:
+                    @Html.TextBoxFor(i => i.MenuLevelName)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    二级菜单链接:
+                    @Html.TextBoxFor(i => i.MenuLevelURL)
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;padding:10px;">
+                    <input type="submit" id="btnSave" value="保存" />
+
+                    <input type="hidden" name="MenuLevelID" value='@(Model==null?0:Model.MenuLevelID)' />@*用隐藏域，保存MenuID值*@
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center">
+                    @Html.ValidationSummary()
+                </td>
+            </tr>
+        </table>
+    }
+</div>
+

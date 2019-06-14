@@ -1,0 +1,144 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+}
+@model KH.Models.User
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta charset="utf-8" />
+    <link href='@Url.Content("~/Content/style.css")' rel="stylesheet" />
+
+    <script type="text/javascript">
+        //用户名、密码验证
+        function check()
+        {
+            var userName = $("#txtUserName").val();
+            var passWord = $("#txtPassWord").val();
+
+            if (userName=="") {
+                $("#info").css("visibility", "visible");''
+                return false;
+            }
+            if (passWord=="") {
+                $("#info").css("visibility", "visible");
+                return false;
+            }
+            return true;
+        }
+        
+   
+
+        $(function () {
+            //是否启用记住密码功能 0:显示 1:隐藏
+            var is_jzmm = 1;
+            if (is_jzmm==0) {
+                $("#jzmm").show();
+            }
+            else {
+                $("#jzmm").hide();
+            }
+            //<img src="Content/App_Themes/default/default/WangZheRongYaoTop.png" />
+            //$("#top").css("background", "url('Content/App_Themes/default/default/WangZheRongYao.png') center center");
+            //$("#logo_png").css("background", "url('~/Content/App_Themes/default/default/logo_tb" + 2 + ".png')");
+           
+            $("#UserName").textbox({
+                iconCls: 'icon-man',
+                iconAlign: 'left',
+                prompt: '用户名',
+                width:200
+            });
+            $("#UserPassword").passwordbox({
+                //iconCls: 'icon-lock',
+                iconAlign: 'left',
+                prompt: '密码',
+                width: 200
+            });
+        });
+    </script>
+
+    <style type="text/css">
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+    </style>
+</head>
+<body onkeydown="keyLogin()" style="padding:0px;overflow:hidden;background:#0084EF">
+    @using (Html.BeginForm("Login", "User", FormMethod.Post))
+    {
+        <input id="login_time" type="hidden" />
+        <div id="topbj" style="background:#FFFFFF;width:100%;height:70px">
+            <h1 id="top" style="width:100%;height:100%;top:16px;line-height:80px;letter-spacing:10px;font-family:'楷体';text-align:center">血刺中单法良</h1>
+        </div>
+
+        <div style="position:absolute;height:370px;width:860px;top:50%;left:50%;margin-left:-420px;margin-top:-185px;">
+
+            <table style="height: 370px; width: 860px; margin: auto;">
+                <tr>
+                    <td>
+                        <div id="logo_png" style="width: 396px; height: 385px; background-size: 100%; margin-right: 70px">
+                            <img src="~/Content/App_Themes/default/default/logo_tb2.png" />
+                        </div>
+                    </td>
+                    <td style="width:320px;height:300px;border:0px #3a6f8f solid">
+                        <div class="login-form" style="background:#FFF">
+                            <h4 style="margin-bottom:25px">系统管理员登陆</h4>
+
+                            <div class="control-group">
+                                @Html.TextBoxFor(i => i.UserName)
+                               
+                            </div>
+
+                            <div class="control-group">
+                                @Html.TextBoxFor(i=>i.UserPassword)
+                                
+                            </div>
+
+                            <div id="jzmm" style="float:left;padding-left:5px;font-size:12px;color:#545454;margin-bottom:10px;width:100%">
+                                <div style="float:left">
+                                    <input type="checkbox" />
+                                </div>
+                                <div style="float:left">
+                                    &nbsp;记住密码
+                                </div>
+                            </div>
+
+                            <div>
+                                @*<a href="#" id="btnLogin" class="easyui-linkbutton" data-options="iconCls:'icon-login'" style="margin-top:15px;width:100px" click="keyLogin()"> </a>*@
+                                <input id="submitClick" type="submit" value="登录" />
+                            </div>
+                            <span style="height:50px" id="info" class="login-tips">
+                            <i></i><b id="msgtip">
+                                  @Html.ValidationSummary()
+                                </b>
+                            </span>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div style="width:100%;height:70px;position:absolute;bottom:0px;background:#FFF">
+            <span id="zdlmc" style="float: left; margin-left: 40px; font-size: 12px; font-family: 微软雅黑; position: relative; top: 28px; color: #3A3A3A"></span><span style="float: right; margin-right: 40px; font-size: 12px; font-family: 微软雅黑; position: relative; top: 28px; color: #3a3a3a">©2019 CopyrightReserved2® WaterCheng Registered </span>
+        </div>
+    }
+
+    <script type="text/javascript">
+        function keyLogin() {   //enter键登陆
+            var event = arguments.callee.caller.arguments[0] || window.event;  //多浏览器公用
+            if (event.keyCode == 13)   //回车键的键值为13
+                if (check()) {
+                    $("#submitClick").trigger("click");
+                }
+        }
+    </script>
+</body>
+</html>
+

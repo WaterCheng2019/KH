@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>首页</title>
+    <script src="Scripts/jquery.min.js"></script>
+    <script src="Scripts/jquery.easyui.min.js"></script>
+    <script src="Scripts/easyui-lang-zh_CN.js"></script>
+    <script src="Scripts/datagrid-detailview.js"></script>
+    <link href="Content/themes/default/easyui.css" rel="stylesheet" />
+    <link href="Content/themes/icon.css" rel="stylesheet" />
+    <script type="text/javascript">
+        function makeTree() {
+            $("#menu").tree({
+                animate: true,
+                width: 200,
+                url: '/Menu/GetTreeList/',
+                onClick: function (node) {
+                    if (node.attribute.url != null || node.attribute.url != undefined) {
+                        addTab(node.text,node.attribute.url);
+                    }
+                }
+            });
+        }
+
+        //添加选择项卡
+        function addTab(title,url)
+        {
+            var falg = $("#tabs").tabs("exists", title);//选项卡是否存在
+            if (!falg) {
+                $("#tabs").tabs("add", {
+                    title: title,
+                    iconCls:'icon-save',
+                    //href: url,
+                    content:crateFrame(url),
+                    closable: true,
+                    selected: true,
+                    loadingMessage:'正在加载中，请稍后。。。。。。'
+                });
+            }
+            else {
+                $("#tabs").tabs("select", title);
+            }
+        }
+
+        //在增加选项卡页中创建子窗口
+        function crateFrame(url)
+        {
+            var s = '<iframe src=' + url + ' scrolling="auto" frameborder="0"  width="100%" height="100%"></iframe>';
+            return s;
+        }
+
+
+        $(function () {
+            makeTree();
+        });
+
+    </script>
+
+</head>
+<body class="easyui-layout" fit="true">
+    <div data-options="region:'north',split:true" style="height:80px;padding:0px;background:#0099C8;text-align:center;font-family:'楷体';font-size:50px;letter-spacing:30px;color:#FF0000;line-height:80px">血刺中单法王良</div>
+    <div data-options="region:'south',split:true" style="height:50px;padding:10px;background:#ccc;text-align:center"> CopyRight© 2019- All Rights Reserved 版权所有-WaterCheng </div>
+    <div data-options="region:'west',split:true,title:'菜单栏',iconCls:'icon-reload',collapsible:true" style="width:250px;padding:20px">
+        <ul id="menu"></ul>
+    </div>
+    <div data-options="region:'center',title:'操作区域',iconCls:'icon-edit'" style="padding:5px;background:#eee;">
+        <div id="tabs" class="easyui-tabs" fit="true" border="false">
+            <div data-options="title:'首页',iconCls:'icon-save',closable:true">
+                <img src="Content/张良-言灵之书/1920x1080.jpg" style="width:100%;height:100%" alt="法王良" />
+            </div>
+        </div>
+    </div>
+</body>
+</html>

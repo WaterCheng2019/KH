@@ -1,0 +1,325 @@
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\obj\Debug\KH.Tests.csprojResolveAssemblyReference.cache
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\ApplicationInsights.config
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\roslyn\csc.exe
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\roslyn\vbc.exe
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\KH.Tests.dll.config
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\KH.Tests.dll
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\KH.Tests.pdb
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\KH.dll
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\Microsoft.Owin.dll
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\Owin.dll
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\KH.pdb
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\Microsoft.Owin.xml
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\zh-Hans\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\zh-Hans\System.Web.Helpers.resources.dll
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\zh-Hans\System.Web.Mvc.resources.dll
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\zh-Hans\System.Web.Razor.resources.dll
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\zh-Hans\System.Web.WebPages.resources.dll
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\zh-Hans\System.Web.WebPages.Razor.resources.dll
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\zh-Hans\Microsoft.Owin.resources.dll
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\zh-Hans\System.Web.Optimization.resources.dll
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\zh-Hans\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\zh-Hans\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\zh-Hans\Microsoft.Owin.Security.resources.dll
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\obj\Debug\KH.Tests.dll
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\obj\Debug\KH.Tests.pdb
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\EntityFramework.dll
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\EntityFramework.xml
+C:\Users\HP\Desktop\ASP.NET MVC\KH\KH.Tests\bin\Debug\zh-Hans\EntityFramework.resources.dll
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\ApplicationInsights.config
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\roslyn\csc.exe
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\roslyn\vbc.exe
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\KH.Tests.dll.config
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\KH.Tests.dll
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\KH.Tests.pdb
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\KH.dll
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\Newtonsoft.Json.dll
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\System.Web.Helpers.dll
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\System.Web.Mvc.dll
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\System.Web.Razor.dll
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\System.Web.WebPages.dll
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\Microsoft.Owin.dll
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\System.Web.Optimization.dll
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\Owin.dll
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\EntityFramework.dll
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\Microsoft.Owin.Security.dll
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\KH.pdb
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\Newtonsoft.Json.xml
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\System.Web.Helpers.xml
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\System.Web.Mvc.xml
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\System.Web.Razor.xml
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\System.Web.WebPages.xml
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\Microsoft.Owin.xml
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\System.Web.Optimization.xml
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\EntityFramework.xml
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\Microsoft.Owin.Security.xml
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\zh-Hans\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\zh-Hans\System.Web.Helpers.resources.dll
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\zh-Hans\System.Web.Mvc.resources.dll
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\zh-Hans\System.Web.Razor.resources.dll
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\zh-Hans\System.Web.WebPages.resources.dll
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\zh-Hans\System.Web.WebPages.Razor.resources.dll
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\zh-Hans\Microsoft.Owin.resources.dll
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\zh-Hans\System.Web.Optimization.resources.dll
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\zh-Hans\Microsoft.AspNet.Identity.Core.resources.dll
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\zh-Hans\EntityFramework.resources.dll
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\zh-Hans\Microsoft.AspNet.Identity.Owin.resources.dll
+G:\毕业论文\KH【190421】\KH.Tests\bin\Debug\zh-Hans\Microsoft.Owin.Security.resources.dll
+G:\毕业论文\KH【190421】\KH.Tests\obj\Debug\KH.Tests.csprojResolveAssemblyReference.cache
+G:\毕业论文\KH【190421】\KH.Tests\obj\Debug\KH.Tests.dll
+G:\毕业论文\KH【190421】\KH.Tests\obj\Debug\KH.Tests.pdb
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\ApplicationInsights.config
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\roslyn\csc.exe
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\roslyn\vbc.exe
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\KH.Tests.dll.config
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\KH.Tests.dll
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\KH.Tests.pdb
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\KH.dll
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\Newtonsoft.Json.dll
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\System.Web.Helpers.dll
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\System.Web.Mvc.dll
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\System.Web.Razor.dll
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\System.Web.WebPages.dll
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\Microsoft.Owin.dll
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\System.Web.Optimization.dll
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\Owin.dll
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\EntityFramework.dll
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\Microsoft.Owin.Security.dll
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\KH.pdb
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\Newtonsoft.Json.xml
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\System.Web.Helpers.xml
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\System.Web.Mvc.xml
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\System.Web.Razor.xml
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\System.Web.WebPages.xml
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\Microsoft.Owin.xml
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\System.Web.Optimization.xml
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\EntityFramework.xml
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\Microsoft.Owin.Security.xml
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\zh-Hans\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\zh-Hans\System.Web.Helpers.resources.dll
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\zh-Hans\System.Web.Mvc.resources.dll
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\zh-Hans\System.Web.Razor.resources.dll
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\zh-Hans\System.Web.WebPages.resources.dll
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\zh-Hans\System.Web.WebPages.Razor.resources.dll
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\zh-Hans\Microsoft.Owin.resources.dll
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\zh-Hans\System.Web.Optimization.resources.dll
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\zh-Hans\Microsoft.AspNet.Identity.Core.resources.dll
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\zh-Hans\Microsoft.AspNet.Identity.Owin.resources.dll
+E:\毕业论文\KH【190421】\KH.Tests\bin\Debug\zh-Hans\Microsoft.Owin.Security.resources.dll
+E:\毕业论文\KH【190421】\KH.Tests\obj\Debug\KH.Tests.csprojResolveAssemblyReference.cache
+E:\毕业论文\KH【190421】\KH.Tests\obj\Debug\KH.Tests.dll
+E:\毕业论文\KH【190421】\KH.Tests\obj\Debug\KH.Tests.pdb
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\ApplicationInsights.config
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\roslyn\csc.exe
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\roslyn\vbc.exe
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\KH.Tests.dll.config
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\KH.Tests.dll
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\KH.Tests.pdb
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\KH.dll
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\Microsoft.Owin.dll
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\Owin.dll
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\EntityFramework.dll
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\KH.pdb
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\Microsoft.Owin.xml
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\EntityFramework.xml
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\zh-Hans\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\zh-Hans\System.Web.Helpers.resources.dll
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\zh-Hans\System.Web.Mvc.resources.dll
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\zh-Hans\System.Web.Razor.resources.dll
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\zh-Hans\System.Web.WebPages.resources.dll
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\zh-Hans\System.Web.WebPages.Razor.resources.dll
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\zh-Hans\Microsoft.Owin.resources.dll
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\zh-Hans\System.Web.Optimization.resources.dll
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\zh-Hans\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\zh-Hans\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\bin\Debug\zh-Hans\Microsoft.Owin.Security.resources.dll
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\obj\Debug\KH.Tests.csprojResolveAssemblyReference.cache
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\obj\Debug\KH.Tests.dll
+C:\Users\WATERCHENG\Desktop\KH【190421】\KH.Tests\obj\Debug\KH.Tests.pdb
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\ApplicationInsights.config
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\roslyn\csc.exe
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\roslyn\vbc.exe
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\KH.Tests.dll.config
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\KH.Tests.dll
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\KH.Tests.pdb
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\KH.dll
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\Microsoft.Owin.dll
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\Owin.dll
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\EntityFramework.dll
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\KH.pdb
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\Microsoft.Owin.xml
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\EntityFramework.xml
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\zh-Hans\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\zh-Hans\System.Web.Helpers.resources.dll
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\zh-Hans\System.Web.Mvc.resources.dll
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\zh-Hans\System.Web.Razor.resources.dll
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\zh-Hans\System.Web.WebPages.resources.dll
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\zh-Hans\System.Web.WebPages.Razor.resources.dll
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\zh-Hans\Microsoft.Owin.resources.dll
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\zh-Hans\System.Web.Optimization.resources.dll
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\zh-Hans\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\zh-Hans\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\bin\Debug\zh-Hans\Microsoft.Owin.Security.resources.dll
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\obj\Debug\KH.Tests.csprojResolveAssemblyReference.cache
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\obj\Debug\KH.Tests.dll
+C:\Users\WATERCHENG\Desktop\新建文件夹\KH【190506】\KH.Tests\obj\Debug\KH.Tests.pdb
